@@ -1,5 +1,6 @@
 #!/bin/bash
 #run emulation stantion
+xhost +local: 
 docker run -it --rm \
                 -e DBUS_SESSION_BUS_ADDRESS \
                 -e DISPLAY \
